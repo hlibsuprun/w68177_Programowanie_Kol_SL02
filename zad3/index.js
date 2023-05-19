@@ -101,20 +101,6 @@ function maxLengthValidation(field, maxLength = 0) {
   }
 }
 
-function validSexFileds() {
-  let result = false;
-
-  const errorField = document.querySelector("span.sex.error");
-
-  sexFields.forEach((field) => {
-    result = field.checked || result;
-  });
-
-  errorField.innerHTML = result ? "" : "Prosze wybrać płeć";
-
-  return !result;
-}
-
 function emailValidation(field) {
   const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
   const errorField = document.querySelector(
@@ -180,7 +166,6 @@ function validForm() {
     requiredValidation(loginField) ||
     requiredValidation(emailField) ||
     requiredValidation(passwordField) ||
-    validSexFileds() ||
     requiredValidation(phoneField) ||
     requiredValidation(birthDateField) ||
     minLengthValidation(loginField, 2) ||
