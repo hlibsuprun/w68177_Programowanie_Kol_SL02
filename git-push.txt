@@ -1,0 +1,2 @@
+git push to komenda w systemie kontroli wersji Git, która służy do przesyłania lokalnych zmian (commits) do zdalnego repozytorium. 
+Jeśli pracujesz zespołowo nad projektem i korzystasz z repozytorium zdalnego, to git push pozwala na udostępnienie Twoich lokalnych zmian innym członkom zespołu.
