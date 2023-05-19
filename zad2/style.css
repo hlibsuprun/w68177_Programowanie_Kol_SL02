@@ -1,0 +1,23 @@
+.light {
+  width: 100px;
+  height: 100px;
+  visibility: hidden;
+  margin: 10px auto;
+  border-radius: 50%;
+  transition: background-color 1s;
+}
+
+.red {
+  background-color: red;
+  visibility: visible;
+}
+
+.yellow {
+  background-color: yellow;
+  visibility: visible;
+}
+
+.green {
+  background-color: green;
+  visibility: visible;
+}
